@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Varela+Round&display=swap');
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-family: 'Assistant', sans-serif;
+    background: url('img.jpg') center center fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #2c2c2c ;
+    animation: change 20s infinite ease-in-out;
+}
+
+.timer{
+    text-align: center;
+    background-color: #0000009c;
+    color: #ffffff;
+    padding: 10px 30px ;
+    border-radius: 35px;
+    margin: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 500px;
+}
+
+.timer h1 {
+    font-size: 48px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+#countDown{
+    font-size: 48px;
+    font-weight: 800;
+}
